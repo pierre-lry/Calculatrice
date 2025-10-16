@@ -2,6 +2,7 @@ import math
 class calculatrice:
     def __init__(self):
         self.resultat = 0
+        self.resultatDE = (0,0)
     def addition(self,n2):
         self.resultat += n2
     def multiplication(self,n1):
@@ -10,5 +11,5 @@ class calculatrice:
         self.resultat -= n1
     def division(self,n1):
         self.resultat = self.resultat/n1
-
-
+    def euclidienne(self,n1):
+        self.resultatDE = (self.resultat//n1,self.resultat - self.resultat//n1)
