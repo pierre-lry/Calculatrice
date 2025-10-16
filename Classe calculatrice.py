@@ -9,6 +9,6 @@ class calculatrice:
     def soustraction(self,n1):
         self.resultat -= n1
     def division(self,n1):
-        self.resultat = self.resultat//n1
+        self.resultat = self.resultat/n1
 
 
