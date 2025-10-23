@@ -66,6 +66,3 @@ class calculatrice:
         if n1 < 2 :
             return False
         return True
-
-test = calculatrice()
-print(test.division(6,4))
