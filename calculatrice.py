@@ -48,7 +48,7 @@ class calculatrice:
         return self.memory
     def total(self):
         return self.memory
-    def exponentielle(self,n1,somme=0): # on va procéder en utilisant le D.L de exp(x)
+    def exponentielle(self,n1,n2=0,somme=0): # on va procéder en utilisant le D.L de exp(x)
         for n in range(1000) :
             if n!=0:
                 somme+=(n1**n)/math.factorial(n)
